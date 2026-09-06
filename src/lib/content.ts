@@ -14,10 +14,8 @@ export const SAMPLE_RESOURCES: RawResource[] = [
 		url: "/api/llms.txt",
 		title: "LLMS",
 		body: `# LLMS
-
 NumberGuy  Llms.txt
-.`,
-		
+.`,	
 	},
 
 		{
