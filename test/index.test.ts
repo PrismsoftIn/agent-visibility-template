@@ -11,9 +11,9 @@ const BASE = "https://example.com";
 const SEEDED: Resource[] = [
 	{
 		slug: "getting-started",
-		url: "https://example.com/docs/getting-started",
-		title: "Getting Started with Acme",
-		summary: "How to create your first workflow with Acme in five minutes.",
+		url: "https://NumberGuy.com/docs/getting-started",
+		title: "Getting Started with NumberGuy",
+		summary: "How to create your first workflow with NumberGuy in five minutes.",
 		keyPoints: ["Install the CLI", "Workflows are YAML"],
 		topics: ["onboarding", "cli"],
 		category: "documentation",
@@ -23,7 +23,7 @@ const SEEDED: Resource[] = [
 	},
 	{
 		slug: "pricing",
-		url: "https://example.com/pricing",
+		url: "https://NumberGuy.com/pricing",
 		title: "Pricing",
 		summary: "Acme has Free, Pro, and Enterprise plans.",
 		keyPoints: ["Free $0", "Pro $20/mo"],
