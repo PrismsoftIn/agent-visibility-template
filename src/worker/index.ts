@@ -84,8 +84,8 @@ function contentSignal(c: { env: Env }): Record<string, string> {
 }
 
 // CORS so agents can fetch the machine-readable surfaces from anywhere.
-app.use("/api/llms.txt", cors());
-app.use("/api/llms-full.txt", cors());
+app.use("llms.txt", cors());
+app.use("llms-full.txt", cors());
 app.use("/index.json", cors());
 app.use("/jsonld", cors());
 // NB: Hono's "*" wildcard does not match a literal ".md"/".jsonld" suffix, so
@@ -97,7 +97,7 @@ app.use("/:file{.+\\.jsonld}", cors());
 // Machine-readable surfaces
 // ---------------------------------------------------------------------------
 
-app.get("/llms.txt", async (c) => {
+app.get("llms.txt", async (c) => {
 	const site = siteConfig(c.env, originOf(c.req.url));
 	const resources = await getResources(c.env);
 	return c.text(renderLlmsTxt({ site, resources }), 200, {
@@ -106,7 +106,7 @@ app.get("/llms.txt", async (c) => {
 	});
 });
 
-app.get("/llms-full.txt", async (c) => {
+app.get("llms-full.txt", async (c) => {
 	const site = siteConfig(c.env, originOf(c.req.url));
 	const resources = await getResources(c.env);
 	return c.text(renderLlmsFullTxt({ site, resources }), 200, {
