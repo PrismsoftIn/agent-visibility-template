@@ -11,17 +11,14 @@ import type { RawResource } from "./types";
 export const SAMPLE_RESOURCES: RawResource[] = [
 	{
 		slug: "llms.txt",
-		url: "/llms.txt",
+		url: "/api/llms.txt",
 		title: "LLMS",
 		body: `
 # Number Guy - Buy Vanity Phone Number Buy the Best Vanity Phone Number VIP Memorable  Tollfree Easy  to  remember Vanity Number from NumberGuy
 Buy the Best Vanity Phone Number VIP Memorable  Tollfree Easy  to  remember Vanity Number from NumberGuy Buy Best Vanity Number, Memorable custom vanity numbers that boost your brand. Get more calls and clients. Buy now from NumberGuy.com!
 ## Sitemaps
-
 - [XML Sitemap](https://numberguy.com/sitemap.xml): Contains all public & indexable URLs for this website.
-
 ## Posts
-
 - [Premium Phone Numbers: The Complete Guide to Choosing, Buying, and Using Premium Phone Numbers for Business Growth](https://numberguy.com/premium-phone-numbers-the-complete-guide-to-choosing-buying-and-using-premium-phone-numbers-for-business-growth/) - Discover how premium phone numbers improve branding, customer trust, and marketing ROI. Learn how to choose, buy, and use the perfect number for your business.
 - [What Is a Vanity Phone Number? Complete 2026 Guide for Businesses & Personal Brands](https://numberguy.com/what-is-a-vanity-phone-number-complete-2026-guide-for-businesses-personal-brands/) - What Is a Vanity Phone Number? Complete 2026 Guide for Businesses & Personal Brands A vanity phone number is a phone number deliberately chosen for its memorability, visual impact, or brand alignment rather than being randomly assigned by a carrier. In 2026, it remains one of the most cost-effective tools for increasing call volume, strengthening
 - [Ultimate Guide to Buying a Vanity Phone Number](https://numberguy.com/ultimate-guide-to-buying-a-vanity-phone-number-2/) - Understanding Vanity Phone Numbers A vanity phone number transforms your business contact from a forgettable string of digits into a memorable marketing asset. These customized phone numbers spell out words, phrases, or contain repeating patterns that stick in customers' minds—think 1-800-FLOWERS or 1-800-GOT-JUNK. Unlike standard randomly-assigned numbers, vanity numbers use the letters on phone keypads
@@ -2108,7 +2105,6 @@ Buy the Best Vanity Phone Number VIP Memorable  Tollfree Easy  to  remember Vani
 - [985](https://numberguy.com/vanity-number/product-tag/985/) - Fast Vanity Number Setup . Quick setup. Activate your number in minutes. Stand out and get results. Buy at NumberGuy.com!
 - [986](https://numberguy.com/vanity-number/product-tag/986/) - Fast Vanity Number Setup . Quick setup. Activate your number in minutes. Stand out and get results. Buy at NumberGuy.com!
 - [274](https://numberguy.com/vanity-number/product-tag/274/) - Fast Vanity Number Setup . Quick setup. Activate your number in minutes. Stand out and get results. Buy at NumberGuy.com!
-
 
 .`,	
 	},
