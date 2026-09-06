@@ -3,7 +3,7 @@ import { beforeAll, describe, it, expect } from "vitest";
 import { ENRICHED_KEY } from "../src/lib/store";
 import type { Resource } from "../src/lib/types";
 
-const BASE = "https://example.com";
+const BASE = "https://numberguy.com";
 
 // Seed the enriched cache so the surfaces serve from KV instead of calling
 // Workers AI on every request. This keeps the suite fast and avoids incurring
