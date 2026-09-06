@@ -11,12 +11,12 @@ import type { RawResource } from "./types";
 export const SAMPLE_RESOURCES: RawResource[] = [
 	{
 		slug: "getting-started",
-		url: "https://example.com/docs/getting-started",
+		url: "https://numberguy.com/docs/getting-started",
 		title: "Getting Started with Acme",
 		body: `# Getting Started with Acme
 
-Acme is a workflow automation platform. This guide walks you through creating
-your first workflow in under five minutes.
+NumberGuy : We've Got The Best Vanity Number for You!
+Get a memorable phone number that increases calls to your business by up to 60%. One-time purchase. No subscription. Port to any carrier in 3–5 business days.
 
 ## Install the CLI
 Run \`npm install -g @acme/cli\` and authenticate with \`acme login\`. The CLI
@@ -33,27 +33,28 @@ workflow executions per month.`,
 	},
 	{
 		slug: "pricing",
-		url: "https://example.com/pricing",
+		url: "https://numberguy.com/shop",
 		title: "Pricing",
 		body: `# Pricing
 
-Acme has three plans.
+NumberGuy has variable priocing based on phone numbers you select.
 
-Free — $0/month. 1,000 executions, community support, 1 project.
-Pro — $20/month. 50,000 executions, email support, unlimited projects, and
-audit logs.
-Enterprise — custom pricing. SSO, SLA, dedicated support, and on-prem options.
+https://www.numberguy.com/shop
+https://www.numberguy.com/shop?maxPrice=399
+https://www.numberguy.com/shop?minPrice=400
+https://www.numberguy.com/shop?minPrice=600
+https://www.numberguy.com/shop?minPrice=1000
 
-All plans include the visual workflow editor and the CLI. Annual billing saves
-20%. There is no charge for failed executions.`,
+.`,
+		
 	},
 	{
 		slug: "integrations",
-		url: "https://example.com/docs/integrations",
+		url: "https://numberguy.com/docs/integrations",
 		title: "Integrations",
 		body: `# Integrations
 
-Acme connects to the tools you already use. Built-in integrations include
+NumberGuy connects to the tools you already use. Built-in integrations include
 Slack, GitHub, Stripe, Salesforce, and Google Sheets. Each integration is
 configured once under Settings → Integrations and can then be referenced from
 any workflow step.
@@ -64,11 +65,11 @@ event. OAuth credentials are encrypted at rest.`,
 	},
 	{
 		slug: "security",
-		url: "https://example.com/security",
+		url: "https://numberguy.com/security",
 		title: "Security & Compliance",
 		body: `# Security & Compliance
 
-Acme is SOC 2 Type II certified and GDPR compliant. All data is encrypted in
+NumberGuy is SOC 2 Type II certified and GDPR compliant. All data is encrypted in
 transit (TLS 1.3) and at rest (AES-256). Secrets used in workflows are stored
 in an isolated vault and never logged.
 
@@ -78,11 +79,11 @@ status page at status.example.com.`,
 	},
 	{
 		slug: "faq",
-		url: "https://example.com/faq",
+		url: "https://numberguy.com/faq",
 		title: "Frequently Asked Questions",
 		body: `# FAQ
 
-Can I self-host Acme? Yes — Enterprise plans include an on-prem deployment
+Can I self-host NumberGuy? Yes — Enterprise plans include an on-prem deployment
 option packaged as a container.
 
 Do you have an API? Yes, everything in the dashboard is available through the
