@@ -97,7 +97,7 @@ app.use("/:file{.+\\.jsonld}", cors());
 // Machine-readable surfaces
 // ---------------------------------------------------------------------------
 
-app.get("/api/llms.txt", async (c) => {
+app.get("/llms.txt", async (c) => {
 	const site = siteConfig(c.env, originOf(c.req.url));
 	const resources = await getResources(c.env);
 	return c.text(renderLlmsTxt({ site, resources }), 200, {
@@ -106,7 +106,7 @@ app.get("/api/llms.txt", async (c) => {
 	});
 });
 
-app.get("/api/llms-full.txt", async (c) => {
+app.get("/llms-full.txt", async (c) => {
 	const site = siteConfig(c.env, originOf(c.req.url));
 	const resources = await getResources(c.env);
 	return c.text(renderLlmsFullTxt({ site, resources }), 200, {
