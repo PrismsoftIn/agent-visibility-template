@@ -10,6 +10,28 @@ import type { RawResource } from "./types";
 
 export const SAMPLE_RESOURCES: RawResource[] = [
 	{
+		slug: "llms.txt",
+		url: "/api/llms.txt",
+		title: "LLMS",
+		body: `# LLMS
+
+NumberGuy  Llms.txt
+.`,
+		
+	},
+
+		{
+		slug: "llms-full.txt",
+		url: "/api/llms-full.txt",
+		title: "LLMS-FULL",
+		body: `# LLMS-FULL
+
+NumberGuy  Llms.txt
+.`,
+		
+	},
+	
+	{
 		slug: "getting-started",
 		url: "https://numberguy.com/docs/getting-started",
 		title: "Getting Started with Acme",
