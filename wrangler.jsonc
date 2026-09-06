@@ -33,8 +33,8 @@
 		}
 	],
 	"vars": {
-		"SITE_NAME": "Acme Docs",
-		"SITE_DESCRIPTION": "Product documentation for the Acme platform.",
+		"SITE_NAME": "NumberGuy.com",
+		"SITE_DESCRIPTION": "We've Got The Best Vanity Number for You! Get a memorable phone number that increases calls to your business by up to 60%. One-time purchase. No subscription. Port to any carrier in 3–5 business days..",
 		"AI_MODEL": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
 		"ENRICHMENT_CACHE_TTL": "3600",
 		"CONTENT_SIGNAL": "ai-input=yes, search=yes, ai-train=no",
